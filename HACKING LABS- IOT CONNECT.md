@@ -1,7 +1,7 @@
 **This challenge focuses on exploiting a security flaw related to the broadcast receiver in the "IOT Connect" application, allowing unauthorized users to activate the master switch, which can turn on all connected devices. The goal is to send a broadcast in a way that only authenticated users can trigger the master switch.***
 
 **Step 1** : Installed the app, started it and used drozer to map out the attack surface
-![1.drozer_mapping.png](../_resources/1.drozer_mapping.png)
+https://github.com/aurora-deth/REPORTS/blob/main/1.drozer_mapping.png
 
 **Step 2**:
 - I seached for `Master Receiver` on JADX-GUI after decompling the app, and I got the `communication manager` class, which looked intresting
